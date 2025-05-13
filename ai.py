@@ -4,7 +4,7 @@ from transformers import GPT2LMHeadModel, PreTrainedTokenizerFast, pipeline
 from dotenv import load_dotenv
 import os
 
-# 환경 변수 로드 123
+# 환경 변수 로드
 load_dotenv()
 HF_TOKEN = os.getenv("HF_TOKEN")
 
