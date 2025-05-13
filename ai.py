@@ -9,7 +9,7 @@ load_dotenv()
 HF_TOKEN = os.getenv("HF_TOKEN")
 
 app = Flask(__name__)
-CORS(app, origins=["http://sky10301.dothome.co.kr"])
+CORS(app, origins=["https://html-starter-wheat-iota.vercel.app"])
 #CORS(app)
 
 # 모델 및 토크나이저 로드 (환경변수로 토큰 전달)
